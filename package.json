@@ -1,0 +1,29 @@
+{
+  "name": "@bitfs/extension",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc && vite build",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "react": "^19",
+    "react-dom": "^19",
+    "react-router-dom": "^7",
+    "@noble/secp256k1": "^2.2",
+    "@noble/hashes": "^1.7",
+    "@scure/bip32": "^1.6",
+    "@scure/bip39": "^1.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4",
+    "typescript": "^5.7",
+    "vite": "^6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/chrome": "^0.0.304",
+    "vitest": "^3"
+  }
+}
